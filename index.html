@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login chat app</title>
+    <style>
+       
+        
+        .first {
+            max-width: 786;
+            margin: 10px auto;
+            border: 2px solid black;
+            border-radius: 15px;
+            padding-left: 40px;
+            padding-bottom: 20px;
+            background-color: darkcyan;
+            color: white;
+        }
+        .input {
+             border-radius: 8px; 
+             padding: 10px;
+        }
+        #submit{
+            background: rgb(75, 50, 50);
+             cursor: pointer; 
+            color: antiquewhite;
+            margin-left: 100px;
+            margin-top: 20px;
+
+        }
+        #submit:hover{
+            background-color: rgb(21, 201, 30);
+        }
+        .second{
+            max-width: 786px;
+            margin: 10px auto;
+            border:2px solid black;
+            border-radius: 15px;
+            padding: 20px;
+            background-color: darkcyan;
+            color: white;
+            
+
+        }
+        #select{
+            border-radius: 8px;
+            padding: 8px;
+        }
+        .designer{
+            max-width: 786px;
+            margin: 10px auto;
+            border: 2px solid black;
+            border-radius: 15px;
+            padding: 30px;
+             background-color: rgb(240, 38, 38);
+             color:black;
+        }
+        .third{
+            max-width: 786px;
+            margin: 10px auto;
+              border: 2px solid black;
+            border-radius: 15px;
+            padding: 30px;
+             background-color: rgb(240, 38, 38);
+             color: rgb(0, 0, 0);
+        }
+        .send{
+             background: rgb(75, 50, 50);
+             cursor: pointer; 
+            color: antiquewhite;
+            margin-left: 100px;
+            margin-top: 20px;
+            padding: 10px 15px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .send:hover{
+            background-color: rgb(21, 201, 30);
+        }
+        .center{
+            text-align: center;
+        }
+        img{
+            padding-left: 30px;
+        }
+        .first h1 {
+            padding-left: 50px;
+        }
+        textarea{
+            border-radius: 10px;
+        }
+        .inf{
+            padding-right: 20px;
+        }
+        .link{
+           
+            text-decoration: none;
+            background: rgb(75, 50, 50);
+            padding: 5px;
+            margin-left: 7px;
+            border-radius: 5px;
+            color: rgb(255, 255, 255);
+            cursor: pointer;
+        }
+        .link:hover{
+            background-color: rgb(153, 149, 207);
+        }
+    
+  
+    </style>
+</head>
+<body>
+    <div class="container">
+<div class="first">
+    <h1>Chat App</h1>
+    <p class="inf"> Sign up to have a fun chat with friends </p>
+    <form action="">
+    <div>
+        <h3 class="center">Choose Language</h3>
+       
+ <select name="" id="select">
+                    <option value="1">English</option>
+                    <option value="2">Arabic</option>
+                    <option value="3">Spanish</option>
+                    <option value="4">French</option>
+                </select> </div> <br>
+
+    
+       <div> 
+            <input type="text" placeholder="First name" required 
+            class="input">
+            </div>
+            <br>
+
+           <div>  <input type="text" placeholder="Last name" required 
+            class="input"> </div> 
+            <br>
+           <div><input type="email" placeholder="Email" required 
+            class="input"> </div>
+             <br>
+            <div> <input type="password" placeholder="Password" required class="input"></div>
+            <br>
+                    </div>
+
+               <div class="second">     
+<h3 class="center">Choose country</h3>
+<div>
+    
+<input type="radio" name="country" value="Egypt">
+<label>Egypt</label><br>
+<input type="radio" name="country" value="USA">
+<label>USA</label><br>
+<input type="radio" name="country" value="Spania">
+<label>Spania</label><br>
+<input type="radio" name="country" value="France">
+<label>France</label><br></form>
+</div>
+<h3 class="center">Choose your hobbies</h3>
+<div>
+    
+    <input type="checkbox" name="hobbies" value="Football">
+    <label >Football</label>
+    <br>
+    <input type="checkbox" name="hobbies" value="Reading">
+    <label>Reading</label>
+    <br>
+    <input type="checkbox" name="hobbies" value="Playstation">
+    <label>Playstation</label>
+    <br>
+    <input type="checkbox" name="hobbies" value="Music">
+    <label>Music</label> 
+</div>
+<div>
+    <h3 class="center">Choose your gender</h3>
+    
+    <input type="radio" name="gender" value="Male">
+    <label>Male</label>
+    <br>
+    <input type="radio" name="gender" value="Female">
+    <label>Female</label>
+    <br>
+   
+    <input type="submit" value="Sign up" id="submit" class="input">
+   
+</div>
+     </form>   
+        </div>
+    
+    <div class="designer">
+    <h3 class="center">The designer of the website</h3>
+   
+        <img src="./pic2.jpg" width="200px" height="200px" alt="pic2" >
+    
+    
+       <p>Name: Mohamed Ibrahim </p>
+       <p>Age: 25 y </p>
+       <p>Phone: 01014346459 </p>
+       <p>Country: Egypt </p>
+
+         <a href="https://www.facebook.com/mhmd.abrahym.811769" target="_blank" class="link">facebook</a> 
+     <a href="https://www.instagram.com/direct/t/17848912664926357/" target="_blank" class="link">instagram</a>
+     <a href="mailto:mohammedelmedany222@gmai.com" target="_blank" class="link">email me</a> 
+        </div>
+    
+   
+   <div class="third">
+        <h3 class="center">Put your comment here :</h3>
+        <!-- <p class="center"><b>ما هو دا اللي ناقص تعدل عليا يا معرص</b></p> -->
+         <form action="">
+        <textarea name="message" cols="33" rows="10" placeholder="Enter your message"  ></textarea>
+        <br>
+        <input type="submit" value="send" class="send">
+    </form>
+    
+</div>
+
+  
+<p class="center"><b>&copy; All the rights are saved</b></p>
+
+</div>
+
+    
+</body>
+</html>
